@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-rc.1'>
+    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-alpha.5'>
   <meta name="generator" content="Hexo 5.4.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
@@ -20,7 +20,7 @@
   <meta content="Hexo" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1635754869122" as="style">
+  <link rel="preload" href="/css/style.css?time=1635755390931" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -1658,8 +1658,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1635754869122" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1635754869122"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1635755390931" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1635755390931"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2782,7 +2782,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         Use
-        <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-rc.1" target="_blank" class="codename">Volantis</a>
+        <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/dev" target="_blank" class="codename">Volantis</a>
         as theme
       
     
@@ -2833,8 +2833,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1635754869122')
-      volantis.js('/js/message.js?time=1635754869122', () => {
+      volantis.css('/css/message.css?time=1635755390931')
+      volantis.js('/js/message.js?time=1635755390931', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2879,8 +2879,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1635754869122')
-      volantis.js('/js/message.js?time=1635754869122', () => {
+      volantis.css('/css/message.css?time=1635755390931')
+      volantis.js('/js/message.js?time=1635755390931', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2939,8 +2939,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1635754869122')
-      volantis.js('/js/message.js?time=1635754869122', () => {
+      volantis.css('/css/message.css?time=1635755390931')
+      volantis.js('/js/message.js?time=1635755390931', () => {
         hideMessage(done);
       });
     } else {
@@ -3142,12 +3142,26 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
       
         
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' 
+        
+        
+        
+        
+      >
+         
+      </a>
+    </li>
+  
+        
       
     </ul>
   </div>
   <script>
     volantis.rightMenu = {};
     volantis.rightMenu.faicon = 'fa' || 'fa';
+    volantis.rightMenu.musicAlwaysShow = 'true' === 'true';
     
     
       volantis.rightMenu.defaultStyles = true;
@@ -3158,7 +3172,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       volantis.APlayerController = {};
     
-    volantis.js('/js/rightMenu.js?time=1635754869122')
+    volantis.js('/js/rightMenu.js?time=1635755390931')
   </script>
 
 
@@ -3172,19 +3186,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1635754869122")
+        volantis.js("/js/plugins/sites.js?time=1635755390931")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1635754869122")
+        volantis.js("/js/plugins/friends.js?time=1635755390931")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1635754869122")
+        volantis.js("/js/plugins/contributors.js?time=1635755390931")
       }
     
   };
@@ -3248,51 +3262,50 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <script>
-  volantis.layoutHelper("comments",`<div id="giscus_container"></div>`)
+  volantis.layoutHelper("comments",`<div id="artalk_container"><i class="fas fa-cog fa-spin fa-fw fa-2x"></i></div>`);
+  function load_artalk() {
+    if(!document.querySelectorAll("#artalk_container")[0])return;
+    volantis.css("https://cdn.jsdelivr.net/npm/artalk@2.0.4/dist/Artalk.css");
+    volantis.js("https://cdn.jsdelivr.net/npm/artalk@2.0.4/dist/Artalk.js").then(pjax_artalk);
+  }
 
-  volantis.giscus = {};
-
-  function check_giscus() {
-    if (volantis.dark.mode === "dark") {
-      volantis.giscus.Theme = 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css';
-    } else {
-      volantis.giscus.Theme = 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css';
+  function pjax_artalk() {
+    if(!document.querySelectorAll("#artalk_container")[0])return;
+    let path = pdata.commentPath;
+    let placeholder = pdata.commentPlaceholder || "快来评论吧~" || "";
+    if (path.length == 0) {
+      path = '' || decodeURI(window.location.pathname);
     }
-
-    return document.getElementById("giscus_container");
+    new Artalk(Object.assign({"js":"https://cdn.jsdelivr.net/npm/artalk@2.0.4/dist/Artalk.js","css":"https://cdn.jsdelivr.net/npm/artalk@2.0.4/dist/Artalk.css","path":null,"placeholder":"快来评论吧~","server":"http://127.0.0.1:8080/api","noComment":"还没有评论，快来评论吧~"}, {
+      el: '#artalk_container',
+      pageKey: path,
+      pageTitle: document.title,
+      pageUrl: window.location.href,
+      placeholder: placeholder,
+      site: 'Hexo',
+      darkMode: volantis.dark.mode === "dark"
+    }));
   }
 
-  function pjax_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css","dark":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css"}},pdata.commentConfig)
-    const script = document.createElement('script');
-    script.setAttribute('src', 'https://giscus.app/client.js');
-    Object.keys(cfg).forEach(k=>{
-      if (k != "theme") {
-        script.setAttribute('data-'+k, cfg[k]);
-      }
-    })
-    script.setAttribute('data-theme', volantis.giscus.Theme);
-    script.setAttribute('crossorigin', "anonymous");
-    HEAD.appendChild(script);
-  }
+  load_artalk();
+  volantis.pjax.push(()=>{
+    if (typeof Artalk === "undefined") {
+      load_artalk();
+    } else {
+      pjax_artalk();
+    }
+  },'artalk');
 
-  function dark_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-
-    const message = {
-      setConfig: {
-        theme: volantis.giscus.Theme
-      }
-    };
-    const giscusIframe = document.querySelector('iframe.giscus-frame');
-    giscusIframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  function dark_artalk() {
+    const container = document.querySelectorAll("#artalk_container")[0];
+    if(!container) return;
+    if(volantis.dark.mode === "dark") {
+      container.classList.add('atk-dark-mode');
+    } else {
+      container.classList.remove('atk-dark-mode');
+    }
   }
-  pjax_giscus();
-  volantis.pjax.push(pjax_giscus);
-  volantis.dark.push(dark_giscus);
+  volantis.dark.push(dark_artalk);
 </script>
 
 
@@ -3300,7 +3313,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/js/app.js?time=1635754869122.js"></script>
+<script src="/js/app.js?time=1635755390931.js"></script>
 
 
 <!-- optional -->
@@ -3313,7 +3326,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1635754869122");
+    return volantis.js("/js/search/hexo.js?time=1635755390931");
   }
 
   function loadSearchService() {
