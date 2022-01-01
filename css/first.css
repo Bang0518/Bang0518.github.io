@@ -658,14 +658,14 @@ button {
 }
 @font-face {
   font-family: 'PingFang SC';
-  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/PingFang SC/PingFang SC-Regular.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@21.2.19/SourceSansPro/SourceSansPro-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'PingFang SC';
-  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/PingFang SC/PingFang SC-Regular.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@21.2.19/SourceSansPro/SourceSansPro-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
