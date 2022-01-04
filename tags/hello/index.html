@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-rc.1'>
+  <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-rc.1'>
   <meta name="generator" content="Hexo 6.0.0">
     <meta charset="utf-8">
     <!-- SEO相关 -->
@@ -20,7 +20,7 @@
         <meta content="曜什么羽" name="apple-mobile-web-app-title">
         <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
         <meta content="telephone=no" name="format-detection">
-        <link rel="preload" href="/css/style.css?time=1641281668833" as="style">
+        <link rel="preload" href="/css/style.css?time=1641321485831" as="style">
         <link rel="preload" href="https://cdn.jsdelivr.net/gh/inkss/common@1.5.211031/fonts/jetbrains/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -1541,10 +1541,10 @@ ul.list-v >li>a:hover {
 }
 
                                               </style>
-                                                  <link rel="stylesheet" href="/css/style.css?time=1641281668833"
+                                                  <link rel="stylesheet" href="/css/style.css?time=1641321485831"
                                                     media="print" onload="this.media='all';this.onload=null">
                                                   <noscript>
-                                                    <link rel="stylesheet" href="/css/style.css?time=1641281668833">
+                                                    <link rel="stylesheet" href="/css/style.css?time=1641321485831">
                                                   </noscript>
                                                       
 <script>
@@ -1967,8 +1967,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                                                             <div id="clickCanvas"
                                                               style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;">
                                                             </div>
-</head>  <body itemscope itemtype="http://schema.org/WebPage">
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header"
+</head>
+    <body itemscope itemtype="http://schema.org/WebPage">
+      <div id="clickCanvas" style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;"></div>
+      <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_click.js"></script>
+      <header itemscope itemtype="http://schema.org/WPHeader" id="l_header"
   class="l_header auto shadow blur "
   style='opacity: 0' >
   <div class='container'>
@@ -2248,11 +2251,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       </div>
     </div>
   </div>
-  <div id="clickCanvas" style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;"></div>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <!-- <div id="clickCanvas" style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;"></div>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script> -->
 </header>
-    <div id="l_body">
-      <div id="l_cover">
+        <div id="l_body">
+          <div id="l_cover">
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
@@ -2314,9 +2317,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
 </div>
 
-      <div id="safearea">
-        <div class="body-wrapper">
-          
+            <div id="safearea">
+              <div class="body-wrapper">
+                
 
 <div id="l_main" class=''>
   
@@ -2559,7 +2562,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
-          <!--此文件用来存放一些不方便取值的变量-->
+                  <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
@@ -2588,8 +2591,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
 </script>
 </pjax>
-        </div>
-        
+              </div>
+              
   
   <footer class="footer clearfix"  itemscope itemtype="http://schema.org/WPFooter">
     <br><br>
@@ -2666,11 +2669,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </footer>
 
 
-        <a id="s-top" class="fas fa-arrow-up fa-fw" href="/" onclick="return false;" title="top"></a>
-      </div>
-    </div>
-    <div>
-      <script>
+                <a id="s-top" class="fas fa-arrow-up fa-fw" href="/" onclick="return false;" title="top"></a>
+            </div>
+        </div>
+        <div>
+          <script>
   /******************** volantis.dom ********************************/
   // 页面选择器 将dom对象缓存起来 see: /source/js/app.js etc.
   volantis.dom.bodyAnchor = volantis.dom.$(document.getElementById("safearea")); // 页面主体
@@ -2700,8 +2703,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1641281668833')
-      volantis.js('/js/message.js?time=1641281668833', () => {
+      volantis.css('/css/message.css?time=1641321485831')
+      volantis.js('/js/message.js?time=1641321485831', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2746,8 +2749,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1641281668833')
-      volantis.js('/js/message.js?time=1641281668833', () => {
+      volantis.css('/css/message.css?time=1641321485831')
+      volantis.js('/js/message.js?time=1641321485831', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2806,8 +2809,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1641281668833')
-      volantis.js('/js/message.js?time=1641281668833', () => {
+      volantis.css('/css/message.css?time=1641321485831')
+      volantis.js('/js/message.js?time=1641321485831', () => {
         hideMessage(done);
       });
     } else {
@@ -2853,19 +2856,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1641281668833")
+        volantis.js("/js/plugins/sites.js?time=1641321485831")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1641281668833")
+        volantis.js("/js/plugins/friends.js?time=1641321485831")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1641281668833")
+        volantis.js("/js/plugins/contributors.js?time=1641321485831")
       }
     
   };
@@ -3062,7 +3065,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/js/app.js?time=1641281668833.js"></script>
+<script src="/js/app.js?time=1641321485831.js"></script>
 
 
 <!-- optional -->
@@ -3075,7 +3078,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1641281668833");
+    return volantis.js("/js/search/hexo.js?time=1641321485831");
   }
 
   function loadSearchService() {
@@ -3565,8 +3568,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-      
-        <!-- 
+            
+              <!-- 
   pjax重载区域接口：
   1.  <pjax></pjax> 标签 pjax 标签必须存在于所有页面 否则 pjax error
   2.  script[data-pjax]
@@ -3630,10 +3633,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     });
 </script>
 
-      
-    </div>
-  <!-- Custom Files bodyEnd begin-->
-  
-  <!-- Custom Files bodyEnd end-->
-  </body>
+                
+        </div>
+        <!-- Custom Files bodyEnd begin-->
+        
+          <!-- Custom Files bodyEnd end-->
+          <div id="clickCanvas" style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;"></div>
+    </body>
+
 </html>
