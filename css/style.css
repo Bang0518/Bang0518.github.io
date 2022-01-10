@@ -11,16 +11,16 @@
   background: rgba(33,150,243,0.2);
 }
 h1 {
-  font-size: 1.5rem;
-}
-h2 {
-  font-size: 1.5rem;
-}
-h3 {
   font-size: 1.25rem;
 }
-h4 {
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
   font-size: 1.125rem;
+}
+h4 {
+  font-size: 1rem;
 }
 h5 {
   font-size: 1rem;
@@ -466,22 +466,22 @@ article#tag .all-tags ul li span:before {
 .article h1 {
   text-align: left;
   color: var(--color-h1);
-  margin-top: 48px;
+  margin-top: 6px;
 }
 .article h2 {
   text-align: left;
   color: var(--color-h2);
-  margin-top: 48px;
+  margin-top: 6px;
 }
 .article h3 {
   text-align: left;
   color: var(--color-h3);
-  margin-top: 24px;
+  margin-top: 3px;
 }
 .article h4 {
   text-align: left;
   color: var(--color-h4);
-  margin-top: 16px;
+  margin-top: 2px;
 }
 .article h5 {
   font-weight: bold;
@@ -1483,7 +1483,7 @@ svg.loading {
   -webkit-border-radius: 8px;
 }
 #l_main .post h1.title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0;
   border-bottom: none;
   padding-bottom: 4px;
@@ -1840,7 +1840,7 @@ svg.loading {
 article#comments p[ct] {
   margin-top: 0;
   margin-bottom: 0.75em;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--color-text);
   font-weight: 600;
 }
@@ -1963,11 +1963,11 @@ img.lazyload:not(.placeholder).loaded {
 }
 .md h1:before,
 .md h2:before {
-  margin-top: -32px;
+  margin-top: -74px;
 }
 .md .article-meta+h1,
 .md .article-meta+h2 {
-  margin-top: -80px;
+  margin-top: -122px;
 }
 .md h3,
 .md h4,
@@ -1976,16 +1976,16 @@ img.lazyload:not(.placeholder).loaded {
   margin-bottom: 0.75em;
 }
 .md h3:before {
-  margin-top: -56px;
+  margin-top: -77px;
 }
 .md h4:before {
-  margin-top: -64px;
+  margin-top: -78px;
 }
 .md h5 {
   font-weight: bold;
 }
 .md h2+h3:before {
-  margin-top: -80px;
+  margin-top: -122px;
 }
 .md ul,
 .md ol {
@@ -2534,7 +2534,7 @@ img.lazyload:not(.placeholder).loaded {
   white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 #u-search .modal .modal-body .modal-results .result .digest {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
@@ -3225,7 +3225,7 @@ img.lazyload:not(.placeholder).loaded {
   color: #fff;
 }
 .snackbar-content .title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .snackbar-content .action {
@@ -5421,26 +5421,26 @@ p.p.h2 {
 }
 span.p.h1,
 p.p.h1 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--color-h1);
   padding-top: 1.5em;
 }
 span.p.h2,
 p.p.h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--color-h2);
   padding-top: 1.5em;
   border-bottom: 1px solid rgba(68,68,68,0.1);
 }
 span.p.h3,
 p.p.h3 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: var(--color-h3);
   padding-top: 1.5em;
 }
 span.p.h4,
 p.p.h4 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--color-h4);
   padding-top: 1.5em;
 }
